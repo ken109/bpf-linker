@@ -221,7 +221,7 @@ fn main() {
         disable_expand_memcpy_in_order,
         disable_memory_builtins,
         mut export,
-        strip_debug,
+        _strip_debug: strip_debug,
         ..
     } = cli;
 
